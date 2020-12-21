@@ -8,11 +8,11 @@ stemmer = PorterStemmer()
 def tokenization(sentence):
     return nltk.word_tokenize(sentence)
 
-def stemmer(word):
+def stem(word):
     return stemmer.stem(word.lower())
 
 def bag_of_word(tokenized_sentence,words):
-    sentence_words = [stemmer(word) for word in tokenized_sentence]
+    sentence_words = [stem(word) for word in tokenized_sentence]
 
     bag = np.zeros(len(words), dtype=np.float32)
     for idx, w in enumerate(words):
