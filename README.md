@@ -4,4 +4,5 @@ Chatbot has been developed with intens.json data using pytorch. Rule-Base is a c
 
 # Pytorch
 # NLTK
+# Flask
 
