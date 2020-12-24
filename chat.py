@@ -24,10 +24,10 @@ model_state = data["model_state"]
 model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
-
-bot_name = "myrobot"
-print("Let's chat!")
-while True:
+def chatbot():
+ bot_name = "myrobot"
+ print("Let's chat!")
+ while True:
     # sentence = "do you use credit cards?"
     sentence = input("You: ")
     if sentence == "quit":
@@ -49,5 +49,7 @@ while True:
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 print(f"{bot_name}: {random.choice(intent['responses'])}")
+                response=random.choice(intent['responses'])
+                print((response))
     else:
         print(f"{bot_name}: I do not understand...")
