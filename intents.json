@@ -15,6 +15,7 @@
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?"
+
       ]
     },
     {
@@ -36,11 +37,15 @@
       "patterns": [
         "Which items do you have?",
         "What kinds of items are there?",
-        "What do you sell?"
+        "What do you sell?",
+        "what do you want you?"
+
       ],
       "responses": [
         "We sell coffee and tea",
-        "We have coffee and tea"
+        "We have coffee and tea",
+        "we want a cake",
+        "we don't want anythingh"
       ]
     },
     {
@@ -49,11 +54,13 @@
         "Do you take credit cards?",
         "Do you accept Mastercard?",
         "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Are you cash only?",
+        "you forget pay"
       ],
       "responses": [
         "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "We accept most major credit cards, and Paypal",
+        "soryy,ı forgot"
       ]
     },
     {
